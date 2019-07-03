@@ -13,7 +13,7 @@ _M.number = 0
 
 -- 模块方法：浏览统计
 function _M.count()
-    _M.number = _M.number + 3
+    _M.number = _M.number + 1
     ngx.say("c: ", _M.number);
 end
 

@@ -4,6 +4,6 @@
 --- Created by jirry.
 --- DateTime: 2019/7/3 15:14
 ---
-local countModule = require("modules/count")
+local countModule = require("modules.count")
 
 countModule:count()
